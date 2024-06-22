@@ -1,0 +1,92 @@
+/* Header.css */
+
+
+
+/* General Navbar styles */
+.navbar {
+    background-color: #a709e6;
+    /* Dark background color */
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    /* White brand color */
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Navbar links and dropdown styles */
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-toggle {
+    color: #ffffff !important;
+    /* White color for links */
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #343a40;
+    /* Match dropdown background with navbar */
+    border: none;
+}
+
+.navbar-nav .dropdown-item {
+    color: #ffffff;
+    /* White color for dropdown items */
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #495057;
+    /* Darker background on hover */
+}
+
+/* Home and Profile links */
+.link-light {
+    color: #ffffff !important;
+    /* Ensure links are white */
+    margin-right: 15px;
+    /* Space between links */
+}
+
+.link-light:hover {
+    color: #adb5bd !important;
+    /* Light gray on hover */
+}
+
+/* Logout button styles */
+.bg-transparent {
+    color: #ffffff;
+    /* White text color */
+}
+
+.bg-transparent:hover {
+    color: #adb5bd;
+    /* Light gray on hover */
+    background-color: transparent;
+    /* No background on hover */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .link-light,
+    .bg-transparent {
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+/* Container adjustments */
+.container {
+    max-width: 1200px;
+    /* Maximum width for the container */
+}
+
+/* Hide navbar when not authenticated */
+.d-none {
+    display: none !important;
+}
